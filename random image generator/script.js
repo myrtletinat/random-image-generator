@@ -10,3 +10,7 @@ for (let i = 0; i < rows * 3; i++) {
   image.src = `${unsplashURL}${getRandomSize()}`;
   container.appendChild(image);
 }
+for (let i = 0; i < rows * 3; i++) {
+  const image = document.createElement("img");
+  image.src = `${unsplashURL}${getRandomSize()}`;
+  container.appendChild(image);
